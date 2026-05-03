@@ -1,15 +1,17 @@
 import React from 'react';
 import { Route, Switch } from 'wouter';
 import Header from './components/Header';
+import Footer from './components/Footer';
 import Home from './pages/Home';
 import Overview from './pages/Overview';
 import CharacterDetail from './pages/CharacterDetail';
 import CharacterGuides from './pages/guides/CharacterGuides';
+import NewbieGuide from './pages/guides/NewbieGuide';
 import PlaceholderGuide from './pages/guides/PlaceholderGuide';
 
 function App() {
   return (
-    <>
+    <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
       <Header />
       <Switch>
         <Route path="/" component={Home} />
@@ -18,6 +20,7 @@ function App() {
         
         {/* Guide Subpages */}
         <Route path="/guides/characters" component={CharacterGuides} />
+        <Route path="/guides/newbie" component={NewbieGuide} />
         <Route path="/guides/rerolling">
           {() => <PlaceholderGuide title="Rerolling Guide" color="var(--color-blue)" />}
         </Route>
@@ -49,7 +52,8 @@ function App() {
           </div>
         </Route>
       </Switch>
-    </>
+      <Footer />
+    </div>
   );
 }
 
