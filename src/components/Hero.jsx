@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'wouter';
 
 export default function Hero() {
   return (
@@ -11,7 +12,9 @@ export default function Hero() {
         <p style={{ maxWidth: '600px', fontSize: '1.2rem', marginTop: 'var(--spacing-lg)', marginBottom: 'var(--spacing-lg)', opacity: 0.9 }}>
           Welcome to the ultimate hub for Etheria: Restart. Dive into our comprehensive guides, master team compositions, and optimize your strategy.
         </p>
-        <a href="/overview" className="btn">Explore Guides</a>
+        <Link href="/overview">
+          <a className="btn">Explore Guides</a>
+        </Link>
       </div>
       
       {/* Background decorative elements */}

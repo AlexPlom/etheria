@@ -157,7 +157,7 @@ export default function NewbieGuide() {
               <div style={{ padding: 'var(--spacing-lg)', backgroundColor: '#1A1A1A', color: 'var(--color-white)', flexGrow: 1, fontSize: '1.1rem', lineHeight: '1.6', display: 'flex', gap: '2rem', flexWrap: 'wrap' }}>
                 <div style={{ flex: '1 1 300px' }}>
                   <h4 style={{ color: accentColor, fontWeight: 'bold', marginBottom: '0.5rem', fontSize: '1.2rem' }}>How to make Friends</h4>
-                  <p>Ask in chat, ignore Nikos, don't take Riggerz too seriously (he means well).</p>
+                  <p>Ask in chat! The community is very welcoming and always happy to help new players find their footing.</p>
                 </div>
                 <div style={{ flex: '1 1 300px' }}>
                   <h4 style={{ color: accentColor, fontWeight: 'bold', marginBottom: '0.5rem', fontSize: '1.2rem' }}>Unions</h4>
