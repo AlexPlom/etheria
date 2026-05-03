@@ -10,7 +10,7 @@ export default function Header() {
       <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
         <div className="logo">
           <Link href="/">
-            <img src="/etheria-restart-logo.png" alt="Etheria Restart Logo" />
+            <img src="/etheria-restart-logo.png" alt="Etheria Restart Logo" style={{ height: '45px', width: 'auto', display: 'block' }} />
           </Link>
         </div>
         <nav className="nav-links">

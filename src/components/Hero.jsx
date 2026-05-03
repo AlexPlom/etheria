@@ -5,6 +5,9 @@ export default function Hero() {
   return (
     <section className="section section-dark flex-center" style={{ minHeight: '100vh', paddingTop: '80px', position: 'relative', overflow: 'hidden' }}>
       <div className="container" style={{ zIndex: 2 }}>
+        <div style={{ marginBottom: 'var(--spacing-lg)' }}>
+          <img src="/etheria-restart-logo.png" alt="Etheria Restart Logo" style={{ maxWidth: '400px', width: '100%', display: 'block', filter: 'drop-shadow(0px 10px 20px rgba(0,0,0,0.5))' }} />
+        </div>
         <h1 className="heading-jumbo">
           Master The <br />
           <span className="text-outline">Restart</span>
