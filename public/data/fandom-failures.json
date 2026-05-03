@@ -1,0 +1,107 @@
+[
+  {
+    "name": "Airon",
+    "slug": "airon",
+    "error": "ValueError: No character image found on https://etheriarestart.fandom.com/wiki/Airon"
+  },
+  {
+    "name": "Asal",
+    "slug": "asal",
+    "error": "ValueError: No character image found on https://etheriarestart.fandom.com/wiki/Asal"
+  },
+  {
+    "name": "Bornova",
+    "slug": "bornova",
+    "error": "ValueError: No character image found on https://etheriarestart.fandom.com/wiki/Bornova"
+  },
+  {
+    "name": "Fiamelia",
+    "slug": "fiamelia",
+    "error": "ValueError: No character image found on https://etheriarestart.fandom.com/wiki/Fiamelia"
+  },
+  {
+    "name": "Gianc",
+    "slug": "gianc",
+    "error": "ValueError: No character image found on https://etheriarestart.fandom.com/wiki/Gianc"
+  },
+  {
+    "name": "Hizuki Mari",
+    "slug": "hizuki-mari",
+    "error": "FileNotFoundError: No Fandom page found for Hizuki Mari: Client error '404 Not Found' for url 'https://etheriarestart.fandom.com/wiki/Hizuki_Mari'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+  },
+  {
+    "name": "Kethos",
+    "slug": "kethos",
+    "error": "ValueError: No character image found on https://etheriarestart.fandom.com/wiki/Kethos"
+  },
+  {
+    "name": "Lowan",
+    "slug": "lowan",
+    "error": "ValueError: No character image found on https://etheriarestart.fandom.com/wiki/Lowan"
+  },
+  {
+    "name": "Luvia",
+    "slug": "luvia",
+    "error": "ValueError: No character image found on https://etheriarestart.fandom.com/wiki/Luvia"
+  },
+  {
+    "name": "Mizusumi Aya",
+    "slug": "mizusumi-aya",
+    "error": "ValueError: No character image found on https://etheriarestart.fandom.com/wiki/Mizusumi_Aya"
+  },
+  {
+    "name": "Nevette",
+    "slug": "nevette",
+    "error": "ValueError: No character image found on https://etheriarestart.fandom.com/wiki/Nevette"
+  },
+  {
+    "name": "Palin",
+    "slug": "palin",
+    "error": "ValueError: No character image found on https://etheriarestart.fandom.com/wiki/Palin"
+  },
+  {
+    "name": "Qano",
+    "slug": "qano",
+    "error": "ValueError: No character image found on https://etheriarestart.fandom.com/wiki/Qano"
+  },
+  {
+    "name": "Raymerry",
+    "slug": "raymerry",
+    "error": "ValueError: No character image found on https://etheriarestart.fandom.com/wiki/Raymerry"
+  },
+  {
+    "name": "Santik",
+    "slug": "santik",
+    "error": "ValueError: No character image found on https://etheriarestart.fandom.com/wiki/Santik"
+  },
+  {
+    "name": "Senyu",
+    "slug": "senyu",
+    "error": "ValueError: No character image found on https://etheriarestart.fandom.com/wiki/Senyu"
+  },
+  {
+    "name": "Steelheart Dinah",
+    "slug": "steelheart-dinah",
+    "error": "FileNotFoundError: No Fandom page found for Steelheart Dinah: Client error '404 Not Found' for url 'https://etheriarestart.fandom.com/wiki/Steelheart_Dinah'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+  },
+  {
+    "name": "Sylph",
+    "slug": "sylph",
+    "error": "ValueError: No character image found on https://etheriarestart.fandom.com/wiki/Sylph"
+  },
+  {
+    "name": "The Lumiwarden Diting",
+    "slug": "the-lumiwarden-diting",
+    "error": "ValueError: No character image found on https://etheriarestart.fandom.com/wiki/The_Lumiwarden_Diting"
+  },
+  {
+    "name": "Xuan Chi",
+    "slug": "xuan-chi",
+    "error": "ValueError: No character image found on https://etheriarestart.fandom.com/wiki/Xuan_Chi"
+  },
+  {
+    "name": "Xuan Li",
+    "slug": "xuan-li",
+    "error": "ValueError: No character image found on https://etheriarestart.fandom.com/wiki/Xuan_Li"
+  }
+]
