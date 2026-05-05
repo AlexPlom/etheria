@@ -28,7 +28,8 @@ Overall unit ranking across all content.
 - Gianc (Strong unit, but mostly pvp)
 - Freya (Has some pve use, great pvp unit)
 - Mizusumi Aya (One dimensional cleanser and push, very useful for some content 151 for pvp)
-- Palin
+- Tiamat (translates very well to pvp)
+- Palin 
 - Luvia 
 - Bornova (Useful Aoe and some for nether quarry later)
 - Santik (Great unit, lattice hungry)
@@ -61,7 +62,6 @@ Overall unit ranking across all content.
 - Rilmocha (only good for DokiDoki clear)
 - Helkid (Needs buff)
 - Borgne (Needs buff)
-- Tiamat (translates very well to pvp)
 - Batsby (Needs buff/rework)
 
 
