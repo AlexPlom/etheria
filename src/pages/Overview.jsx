@@ -3,6 +3,7 @@ import { Link } from 'wouter';
 
 export default function Overview() {
   const guideLinks = [
+    { title: 'Tier List', path: '/guides/tierlist', color: '#FF3B30', gradient: 'linear-gradient(135deg, rgba(255, 59, 48, 0.2), rgba(255, 59, 48, 0))' },
     { title: 'Newbie General Advice', path: '/guides/newbie', color: '#FF9500', gradient: 'linear-gradient(135deg, rgba(255, 149, 0, 0.2), rgba(255, 149, 0, 0))' },
     { title: 'Character Guides', path: '/guides/characters', color: '#FFD600', gradient: 'linear-gradient(135deg, rgba(255, 214, 0, 0.2), rgba(255, 214, 0, 0))' },
     { title: 'Rerolling Guide', path: '/guides/rerolling', color: '#0047FF', gradient: 'linear-gradient(135deg, rgba(0, 71, 255, 0.2), rgba(0, 71, 255, 0))' },

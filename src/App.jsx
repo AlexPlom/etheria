@@ -7,6 +7,7 @@ import Overview from './pages/Overview';
 import CharacterDetail from './pages/CharacterDetail';
 import CharacterGuides from './pages/guides/CharacterGuides';
 import NewbieGuide from './pages/guides/NewbieGuide';
+import TierList from './pages/guides/TierList';
 import PlaceholderGuide from './pages/guides/PlaceholderGuide';
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         {/* Guide Subpages */}
         <Route path="/guides/characters" component={CharacterGuides} />
         <Route path="/guides/newbie" component={NewbieGuide} />
+        <Route path="/guides/tierlist" component={TierList} />
         <Route path="/guides/rerolling">
           {() => <PlaceholderGuide title="Rerolling Guide" color="var(--color-blue)" />}
         </Route>
