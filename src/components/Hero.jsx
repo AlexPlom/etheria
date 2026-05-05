@@ -1,6 +1,17 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'wouter';
 
+// No character in the game starts with E — Nevette is used as the closest option.
+const RESTART_LETTERS = [
+  { char: 'R', img: '/assets/characters/raymerry/card/Raymerry_card.webp',       pos: 'center 8%'  },
+  { char: 'E', img: '/assets/characters/nevette/card/nevette_card.webp',          pos: 'center 8%'  },
+  { char: 'S', img: '/assets/characters/senyu/card/senyu_card.webp',              pos: 'center 8%'  },
+  { char: 'T', img: '/assets/characters/tiamat/card/Tiamat_card.webp',            pos: 'center 8%'  },
+  { char: 'A', img: '/assets/characters/asal/profile/asal_c.webp',                pos: 'center 15%' },
+  { char: 'R', img: '/assets/characters/rosa/card/rosa_card.webp',                pos: 'center 8%'  },
+  { char: 'T', img: '/assets/characters/tsukiyo-mi/card/tsukiyomi_card.webp',     pos: 'center 8%'  },
+];
+
 export default function Hero() {
   const [randomChar, setRandomChar] = useState(null);
 
@@ -25,7 +36,14 @@ export default function Hero() {
         </div>
         <h1 className="heading-jumbo">
           Master The <br />
-          <span className="text-outline">Restart</span>
+          <span style={{ display: 'inline-flex' }}>
+            {RESTART_LETTERS.map(({ char, img, pos }, i) => (
+              <span key={i} className="restart-letter">
+                <span className="restart-base">{char}</span>
+                <span className="restart-fill" style={{ backgroundImage: `url(${img})`, backgroundPosition: pos }}>{char}</span>
+              </span>
+            ))}
+          </span>
         </h1>
         <p style={{ maxWidth: '600px', fontSize: '1.2rem', marginTop: 'var(--spacing-lg)', marginBottom: 'var(--spacing-lg)', opacity: 0.9 }}>
           Welcome to the ultimate hub for Etheria: Restart. Dive into our comprehensive guides, master team compositions, and optimize your strategy.

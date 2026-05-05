@@ -17,19 +17,19 @@ export default function CharacterCard({ character }) {
 
   // Element color
   const elementColors = {
-    'Disorder': '#800080',
-    'Constant': 'var(--color-yellow)',
-    'Odd': 'var(--color-blue)',
-    'Hollow': '#00FF41',
-    'Reason': 'var(--color-red)'
+    'Disorder': '#c4a7e7',
+    'Constant': '#f6c177',
+    'Odd':      '#9ccfd8',
+    'Hollow':   '#31748f',
+    'Reason':   '#eb6f92',
   };
 
   const elementShadows = {
-    'Disorder': '#4d004d',
-    'Constant': '#cca300',
-    'Odd': '#002999',
-    'Hollow': '#009927',
-    'Reason': '#cc0000'
+    'Disorder': '#403d52',
+    'Constant': '#524f67',
+    'Odd':      '#26233a',
+    'Hollow':   '#1f1d2e',
+    'Reason':   '#403d52',
   };
   
   const bgColor = elementColors[character.element] || 'var(--color-gray)';

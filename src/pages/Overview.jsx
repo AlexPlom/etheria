@@ -3,30 +3,30 @@ import { Link } from 'wouter';
 
 export default function Overview() {
   const guideLinks = [
-    { title: 'Tier List', path: '/guides/tierlist', color: '#FF3B30', gradient: 'linear-gradient(135deg, rgba(255, 59, 48, 0.2), rgba(255, 59, 48, 0))' },
-    { title: 'Newbie General Advice', path: '/guides/newbie', color: '#FF9500', gradient: 'linear-gradient(135deg, rgba(255, 149, 0, 0.2), rgba(255, 149, 0, 0))' },
-    { title: 'Character Guides', path: '/guides/characters', color: '#FFD600', gradient: 'linear-gradient(135deg, rgba(255, 214, 0, 0.2), rgba(255, 214, 0, 0))' },
-    { title: 'Rerolling Guide', path: '/guides/rerolling', color: '#0047FF', gradient: 'linear-gradient(135deg, rgba(0, 71, 255, 0.2), rgba(0, 71, 255, 0))' },
-    { title: 'Who to Invest', path: '/guides/invest', color: '#00FF41', gradient: 'linear-gradient(135deg, rgba(0, 255, 65, 0.2), rgba(0, 255, 65, 0))' },
-    { title: 'RTA (PvP)', path: '/guides/rta', color: '#FF3B30', gradient: 'linear-gradient(135deg, rgba(255, 59, 48, 0.2), rgba(255, 59, 48, 0))' },
-    { title: 'Guild Versus Guild', path: '/guides/gvg', color: '#800080', gradient: 'linear-gradient(135deg, rgba(128, 0, 128, 0.2), rgba(128, 0, 128, 0))' },
-    { title: 'Objectives by Level', path: '/guides/objectives', color: '#FFD600', gradient: 'linear-gradient(135deg, rgba(255, 214, 0, 0.2), rgba(255, 214, 0, 0))' },
-    { title: 'Modules', path: '/guides/modules', color: '#0047FF', gradient: 'linear-gradient(135deg, rgba(0, 71, 255, 0.2), rgba(0, 71, 255, 0))' },
-    { title: 'Shells', path: '/guides/shells', color: '#00FF41', gradient: 'linear-gradient(135deg, rgba(0, 255, 65, 0.2), rgba(0, 255, 65, 0))' },
+    { title: 'Tier List',            path: '/guides/tierlist',    color: '#eb6f92', gradient: 'linear-gradient(135deg, rgba(235, 111, 146, 0.15), rgba(235, 111, 146, 0))' },
+    { title: 'Newbie General Advice',path: '/guides/newbie',      color: '#f6c177', gradient: 'linear-gradient(135deg, rgba(246, 193, 119, 0.15), rgba(246, 193, 119, 0))' },
+    { title: 'Character Guides',     path: '/guides/characters',  color: '#9ccfd8', gradient: 'linear-gradient(135deg, rgba(156, 207, 216, 0.15), rgba(156, 207, 216, 0))' },
+    { title: 'Rerolling Guide',      path: '/guides/rerolling',   color: '#c4a7e7', gradient: 'linear-gradient(135deg, rgba(196, 167, 231, 0.15), rgba(196, 167, 231, 0))' },
+    { title: 'Who to Invest',        path: '/guides/invest',      color: '#31748f', gradient: 'linear-gradient(135deg, rgba(49, 116, 143, 0.15), rgba(49, 116, 143, 0))' },
+    { title: 'RTA (PvP)',            path: '/guides/rta',         color: '#eb6f92', gradient: 'linear-gradient(135deg, rgba(235, 111, 146, 0.15), rgba(235, 111, 146, 0))' },
+    { title: 'Guild Versus Guild',   path: '/guides/gvg',         color: '#c4a7e7', gradient: 'linear-gradient(135deg, rgba(196, 167, 231, 0.15), rgba(196, 167, 231, 0))' },
+    { title: 'Objectives by Level',  path: '/guides/objectives',  color: '#f6c177', gradient: 'linear-gradient(135deg, rgba(246, 193, 119, 0.15), rgba(246, 193, 119, 0))' },
+    { title: 'Modules',              path: '/guides/modules',     color: '#9ccfd8', gradient: 'linear-gradient(135deg, rgba(156, 207, 216, 0.15), rgba(156, 207, 216, 0))' },
+    { title: 'Shells',               path: '/guides/shells',      color: '#ebbcba', gradient: 'linear-gradient(135deg, rgba(235, 188, 186, 0.15), rgba(235, 188, 186, 0))' },
   ];
 
   return (
-    <main style={{ 
-      paddingTop: '120px', 
-      backgroundColor: '#050505', 
-      minHeight: '100vh', 
-      color: '#FAFAFA',
+    <main style={{
+      paddingTop: '120px',
+      backgroundColor: 'var(--color-base)',
+      minHeight: '100vh',
+      color: 'var(--color-text)',
       position: 'relative',
       overflow: 'hidden'
     }}>
-      {/* Soft glowing ambient background elements */}
-      <div style={{ position: 'absolute', top: '-10%', left: '-10%', width: '500px', height: '500px', background: 'radial-gradient(circle, rgba(0,71,255,0.1) 0%, rgba(0,0,0,0) 70%)', zIndex: 0 }} />
-      <div style={{ position: 'absolute', bottom: '-10%', right: '-10%', width: '600px', height: '600px', background: 'radial-gradient(circle, rgba(255,59,48,0.1) 0%, rgba(0,0,0,0) 70%)', zIndex: 0 }} />
+      {/* Ambient glow */}
+      <div style={{ position: 'absolute', top: '-10%', left: '-10%', width: '500px', height: '500px', background: 'radial-gradient(circle, rgba(196,167,231,0.07) 0%, transparent 70%)', zIndex: 0 }} />
+      <div style={{ position: 'absolute', bottom: '-10%', right: '-10%', width: '600px', height: '600px', background: 'radial-gradient(circle, rgba(156,207,216,0.07) 0%, transparent 70%)', zIndex: 0 }} />
 
       <div className="container" style={{ position: 'relative', zIndex: 1 }}>
         <div style={{ textAlign: 'center', marginBottom: 'var(--spacing-xl)' }}>
@@ -46,14 +46,14 @@ export default function Overview() {
         }}>
           {guideLinks.map((guide, idx) => (
             <Link key={idx} href={guide.path} style={{ textDecoration: 'none', color: 'inherit', display: 'block' }}>
-              <div className="glass-card" style={{ 
+              <div className="glass-card" style={{
                 '--hover-color': guide.color,
-                height: '220px', 
-                background: `rgba(20, 20, 20, 0.6)`, 
-                backdropFilter: 'blur(16px)',
-                WebkitBackdropFilter: 'blur(16px)',
-                border: '1px solid rgba(255, 255, 255, 0.05)', 
-                borderRadius: '16px',
+                height: '220px',
+                background: 'rgba(38, 35, 58, 0.65)',
+                backdropFilter: 'blur(20px)',
+                WebkitBackdropFilter: 'blur(20px)',
+                border: '1px solid rgba(255, 255, 255, 0.07)',
+                borderRadius: '10px',
                 display: 'flex', 
                 flexDirection: 'column',
                 justifyContent: 'center', 

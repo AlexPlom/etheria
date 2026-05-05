@@ -1,19 +1,19 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'wouter';
-import generalMd    from '../../data/tierlists/general.md?raw';
-import investmentMd from '../../data/tierlists/investment.md?raw';
-import pveMd        from '../../data/tierlists/pve.md?raw';
-import pvpMd        from '../../data/tierlists/pvp.md?raw';
+import generalMd        from '../../data/tierlists/general.md?raw';
+import pveGeneralMd     from '../../data/tierlists/pve-general.md?raw';
+import pveCompetitiveMd from '../../data/tierlists/pve-competitive.md?raw';
+import pvpMd            from '../../data/tierlists/pvp.md?raw';
 
-const accentColor = '#FF3B30';
+const accentColor = '#eb6f92';
 
 const TIER_COLORS = {
-  S:             { color: '#FFD600', bg: 'rgba(255, 214, 0, 0.12)',    border: 'rgba(255, 214, 0, 0.35)'    },
-  A:             { color: '#FF3B30', bg: 'rgba(255, 59, 48, 0.12)',    border: 'rgba(255, 59, 48, 0.35)'    },
-  B:             { color: '#FF9500', bg: 'rgba(255, 149, 0, 0.12)',    border: 'rgba(255, 149, 0, 0.35)'    },
-  C:             { color: '#0047FF', bg: 'rgba(0, 71, 255, 0.12)',     border: 'rgba(0, 71, 255, 0.35)'     },
-  D:             { color: '#888888', bg: 'rgba(136, 136, 136, 0.08)',  border: 'rgba(136, 136, 136, 0.25)'  },
-  Undistributed: { color: '#333333', bg: 'rgba(30, 30, 30, 0.6)',      border: 'rgba(80, 80, 80, 0.3)'      },
+  S:             { color: '#f6c177', bg: 'rgba(246, 193, 119, 0.08)',  border: 'rgba(246, 193, 119, 0.25)'  },
+  A:             { color: '#eb6f92', bg: 'rgba(235, 111, 146, 0.08)',  border: 'rgba(235, 111, 146, 0.25)'  },
+  B:             { color: '#c4a7e7', bg: 'rgba(196, 167, 231, 0.08)',  border: 'rgba(196, 167, 231, 0.25)'  },
+  C:             { color: '#9ccfd8', bg: 'rgba(156, 207, 216, 0.08)',  border: 'rgba(156, 207, 216, 0.25)'  },
+  D:             { color: '#6e6a86', bg: 'rgba(110, 106, 134, 0.06)',  border: 'rgba(110, 106, 134, 0.2)'   },
+  Undistributed: { color: '#403d52', bg: 'rgba(38, 35, 58, 0.5)',      border: 'rgba(64, 61, 82, 0.4)'      },
 };
 
 function parseTierMarkdown(markdown) {
@@ -39,18 +39,26 @@ function parseTierMarkdown(markdown) {
     .filter(t => t.label in TIER_COLORS && t.characters.length > 0);
 }
 
-const tierData = {
-  general:    parseTierMarkdown(generalMd),
-  investment: parseTierMarkdown(investmentMd),
-  pve:        parseTierMarkdown(pveMd),
-  pvp:        parseTierMarkdown(pvpMd),
-};
-
+// Each tab can have one or more named lists rendered stacked.
 const TABS = [
-  { key: 'general',    label: 'General'         },
-  { key: 'investment', label: 'Investment Worth' },
-  { key: 'pve',        label: 'PvE'             },
-  { key: 'pvp',        label: 'PvP'             },
+  {
+    key: 'general',
+    label: 'Starting Out',
+    lists: [{ title: null, tiers: parseTierMarkdown(generalMd) }],
+  },
+  {
+    key: 'pve',
+    label: 'PvE',
+    lists: [
+      { title: 'General PvE',      tiers: parseTierMarkdown(pveGeneralMd)     },
+      { title: 'Competitive PvE',  tiers: parseTierMarkdown(pveCompetitiveMd) },
+    ],
+  },
+  {
+    key: 'pvp',
+    label: 'PvP',
+    lists: [{ title: null, tiers: parseTierMarkdown(pvpMd) }],
+  },
 ];
 
 function buildImageLookup(characters) {
@@ -208,7 +216,7 @@ export default function TierList() {
       .then(data => setLookup(buildImageLookup(data)));
   }, []);
 
-  const tiers = tierData[activeTab];
+  const activeTabData = TABS.find(t => t.key === activeTab);
 
   return (
     <main style={{ paddingTop: '80px', backgroundColor: 'var(--color-black)', minHeight: '100vh', color: 'var(--color-white)' }}>
@@ -303,12 +311,31 @@ export default function TierList() {
             })}
           </div>
 
-          {/* Tier Rows */}
-          <div style={{ display: 'flex', flexDirection: 'column', gap: '4px' }}>
-            {tiers.map(tier => (
-              <TierRow key={tier.label} tier={tier} lookup={lookup} />
-            ))}
-          </div>
+          {/* Tier Lists */}
+          {activeTabData.lists.map(({ title, tiers }, listIdx) => (
+            <div key={listIdx} style={{ marginBottom: listIdx < activeTabData.lists.length - 1 ? '3rem' : 0 }}>
+              {title && (
+                <h3 style={{
+                  fontFamily: 'var(--font-display)',
+                  fontWeight: 700,
+                  fontSize: '1.1rem',
+                  textTransform: 'uppercase',
+                  letterSpacing: '0.08em',
+                  color: 'var(--color-subtle)',
+                  marginBottom: '0.75rem',
+                  paddingBottom: '0.5rem',
+                  borderBottom: '1px solid rgba(255,255,255,0.06)',
+                }}>
+                  {title}
+                </h3>
+              )}
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '4px' }}>
+                {tiers.map(tier => (
+                  <TierRow key={tier.label} tier={tier} lookup={lookup} />
+                ))}
+              </div>
+            </div>
+          ))}
 
           <p style={{ marginTop: '2rem', fontSize: '0.9rem', color: '#555', textAlign: 'right', fontStyle: 'italic' }}>
             Last updated: May 2026

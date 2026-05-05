@@ -6,7 +6,7 @@ export default function NewbieGuide() {
     window.scrollTo(0, 0);
   }, []);
 
-  const accentColor = '#FF9500'; // Amber color used in Overview.jsx
+  const accentColor = '#f6c177';
 
   return (
     <main style={{ paddingTop: '80px', backgroundColor: 'var(--color-black)', minHeight: '100vh', color: 'var(--color-white)' }}>

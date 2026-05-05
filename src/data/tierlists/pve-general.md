@@ -1,36 +1,37 @@
-# Starting Out Tier List
+# General PvE Tier List
 
-Overall unit ranking across all content.
+Unit ranking for general PvE content: story, investigation, and Inferno.
 
 ## S
-- Raymerry (The OG Goat)
-- Xuan Li (The Goat)
-- Plume (Insane unit, probably used in all content she is available)
-- Lily (Insane unit, useful throughout the game)
- 
-## A 
-- Kethos (Amazing unit for pvp, niche for pve)
-- Fiamelia (Amazing for pvp, niche for pve)
-- Xuan Chi (One of the best, can eveb be S tier)
-- Lingluo (Solid unit for all content and almost c tier with the imprints patch)
-- Massiah (Great unit both for pvp and pve, not the greatest, but reliable)
-- Rahu (Amazing unit, can be built for pvp and pve and is very versatile)
-- Liliam (Can be used both for pvp and pve single damage fast clears)
-- Nevette (One of the easiest CC to build and use, very versatile)
-- Asal (Used to suck, now is insane for pvp and can be used for some pve)
-- Yeli (Very good unit for pve and pvp, but the rng in her kit makes her unreliable)
-- Lowan (Has taunt for some bosses and can deal a lot of damage if built right)
-- Qano (Mass cleave AoE unit)
+- Xuan Li
+- Raymerry
+- Plume
+- Lily
+- Freya
+
+## A
+- Kethos
+- Fiamelia
+- Xuan Chi
+- Lingluo
+- Massiah
+- Yeli
+- Rahu
+- Liliam
+- Rosa
+- Ninfoniel
+- Nevette
+- Asal
+- Lowan 
+- Qano 
 
 ## B
-- Rosa (Great for bossing)
-- Ninfoniel (Can help you in almost all pve, but doesn't do much in pvp)
 - Gianc (Strong unit, but mostly pvp)
-- Freya (Has some pve use, great pvp unit)
 - Mizusumi Aya (One dimensional cleanser and push, very useful for some content 151 for pvp)
 - Palin
 - Luvia 
 - Bornova (Useful Aoe and some for nether quarry later)
+- Tiamat (translates very well to pvp )
 - Santik (Great unit, lattice hungry)
 - DokiDoki (Needs good speed gear, lattice hungry)
 - Senyu (Insane damage, but needs investment and dupes)
@@ -57,13 +58,10 @@ Overall unit ranking across all content.
 - Veronika (Can be stron in pvp with investment)
 
 ## D
-- Shadow Sania (Needs buff/rework/support)
 - Rilmocha (only good for DokiDoki clear)
 - Helkid (Needs buff)
 - Borgne (Needs buff)
-- Tiamat (translates very well to pvp)
 - Batsby (Needs buff/rework)
-
-
+- Shadow Sania (Needs buff/rework/support)
 
 ## Undistributed

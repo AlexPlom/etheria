@@ -40,11 +40,11 @@ export default function CharacterDetail() {
   }
 
   const elementColors = {
-    'Disorder': '#800080',
-    'Constant': 'var(--color-yellow)',
-    'Odd': 'var(--color-blue)',
-    'Hollow': '#00FF41',
-    'Reason': 'var(--color-red)'
+    'Disorder': '#c4a7e7',
+    'Constant': '#f6c177',
+    'Odd':      '#9ccfd8',
+    'Hollow':   '#31748f',
+    'Reason':   '#eb6f92',
   };
   
   const accentColor = elementColors[character.element] || 'var(--color-gray)';
