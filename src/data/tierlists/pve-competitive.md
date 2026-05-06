@@ -1,60 +1,55 @@
 # Competitive PvE Tier List
 
-Unit ranking for competitive PvE content: Nether Quarry, Inferno leaderboards, and endgame challenge modes.
+Unit ranking for competitive PvE content: Nether Quarry mostly, anisync, ember trek etc.
 
 ## S
+- Lily 
+- Bornova
+- Freya
+- Khloros
+- Plume
+- Rahu
+- Rosa
+- Santik
+- Xuan Li
 
 ## A
-
-## B
-
-## C
-
-## D
-
-## Undistributed
-- Airon
+- Liliam
+- Massiah
+- Mizusumi Aya
+- Nevette
 - Asal
-- Batsby
-- Beyontin
-- Borgne
-- Bornova
 - Celince
 - DokiDoki
 - Fiamelia
-- Freya
-- Fuqiu
-- Gianc
 - Heinrich
+
+## B
+- Fuqiu
 - Helkid
 - Holden
 - Hoyan
 - Kethos
-- Khloros
 - Kloss
+- Gianc
+- Airon
+- Batsby
+- Beyontin
+- Borgne
 - Kokardi
 - Lian
-- Liliam
 - Lilith
-- Lily
 - Lingluo
 - Lowan
 - Luvia
-- Massiah
 - Mia
 - Mio
-- Mizusumi Aya
 - Nahor
-- Nevette
 - Ninfoniel
 - Palin
-- Plume
 - Qano
-- Rahu
 - Raymerry
 - Rilmocha
-- Rosa
-- Santik
 - Senyu
 - Shadow Sania
 - The Lumiwarden Diting
@@ -63,5 +58,6 @@ Unit ranking for competitive PvE content: Nether Quarry, Inferno leaderboards, a
 - Veronika
 - Xiada
 - Xuan Chi
-- Xuan Li
 - Yeli
+
+## Undistributed
