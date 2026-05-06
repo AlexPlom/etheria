@@ -10,6 +10,7 @@ Overall unit ranking across all content.
 - Diting (Always invest in this unit, he will be your single target dps for everything)
 - Valerian (Very useful unit)
 ## A 
+- Ninfoniel (Can help you in almost all pve, but doesn't do much in pvp)
 - Kethos (Amazing unit for pvp, niche for pve)
 - Fiamelia (Amazing for pvp, niche for pve)
 - Xuan Chi (One of the best, can eveb be S tier)
@@ -21,11 +22,10 @@ Overall unit ranking across all content.
 - Asal (Used to suck, now is insane for pvp and can be used for some pve)
 - Yeli (Very good unit for pve and pvp, but the rng in her kit makes her unreliable)
 - Lowan (Has taunt for some bosses and can deal a lot of damage if built right)
-- Qano (Mass cleave AoE unit)
 
 ## B
 - Rosa (Great for bossing)
-- Ninfoniel (Can help you in almost all pve, but doesn't do much in pvp)
+- Qano (Mass cleave AoE unit)
 - Gianc (Strong unit, but mostly pvp)
 - Freya (Has some pve use, great pvp unit)
 - Mizusumi Aya (One dimensional cleanser and push, very useful for some content 151 for pvp)
