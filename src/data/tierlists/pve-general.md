@@ -8,6 +8,9 @@ Unit ranking for general PvE content: story, investigation, and Inferno.
 - Plume
 - Lily
 - Ninfoniel
+- Diting
+- Valerian 
+- Kazuyo [The Reverie]
 
 ## A
 - Bornova
@@ -18,6 +21,7 @@ Unit ranking for general PvE content: story, investigation, and Inferno.
 - Rahu
 - Rosa
 - Nevette
+- Sania
 - Lowan 
 - Freya
 - Fiamelia

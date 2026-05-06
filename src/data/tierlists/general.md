@@ -7,7 +7,8 @@ Overall unit ranking across all content.
 - Xuan Li (The Goat)
 - Plume (Insane unit, probably used in all content she is available)
 - Lily (Insane unit, useful throughout the game)
- 
+- Diting (Always invest in this unit, he will be your single target dps for everything)
+- Valerian (Very useful unit)
 ## A 
 - Kethos (Amazing unit for pvp, niche for pve)
 - Fiamelia (Amazing for pvp, niche for pve)
