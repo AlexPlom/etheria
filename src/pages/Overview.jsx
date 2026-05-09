@@ -6,6 +6,7 @@ export default function Overview() {
     { title: 'Tier List',            path: '/guides/tierlist',    color: '#eb6f92', gradient: 'linear-gradient(135deg, rgba(235, 111, 146, 0.15), rgba(235, 111, 146, 0))', live: true  },
     { title: 'Newbie General Advice',path: '/guides/newbie',      color: '#f6c177', gradient: 'linear-gradient(135deg, rgba(246, 193, 119, 0.15), rgba(246, 193, 119, 0))', live: true  },
     { title: 'Character Guides',     path: '/guides/characters',  color: '#9ccfd8', gradient: 'linear-gradient(135deg, rgba(156, 207, 216, 0.15), rgba(156, 207, 216, 0))', live: true  },
+    { title: 'Awakening Calculator', path: '/guides/awakening',   color: '#f6c177', gradient: 'linear-gradient(135deg, rgba(246, 193, 119, 0.15), rgba(246, 193, 119, 0))', live: true  },
     { title: 'Rerolling Guide',      path: '/guides/rerolling',   color: '#c4a7e7', gradient: 'linear-gradient(135deg, rgba(196, 167, 231, 0.15), rgba(196, 167, 231, 0))', live: false },
     { title: 'Who to Invest',        path: '/guides/invest',      color: '#31748f', gradient: 'linear-gradient(135deg, rgba(49, 116, 143, 0.15), rgba(49, 116, 143, 0))',   live: false },
     { title: 'RTA (PvP)',            path: '/guides/rta',         color: '#eb6f92', gradient: 'linear-gradient(135deg, rgba(235, 111, 146, 0.15), rgba(235, 111, 146, 0))', live: false },
