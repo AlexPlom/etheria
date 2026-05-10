@@ -14,19 +14,22 @@ Unit ranking for competitive PvE content: Nether Quarry mostly, anisync, ember t
 - Xuan Li
 
 ## A
+- Raymerry
+- Xuan Chi
 - Liliam
-- Massiah
-- Mizusumi Aya
 - Nevette
 - Asal
+- Lowan
 - Celince
 - DokiDoki
-- Fiamelia
 - Heinrich
+- Fiamelia
 
 ## B
+- Mizusumi Aya
 - Fuqiu
 - Helkid
+- Massiah
 - Holden
 - Hoyan
 - Kethos
@@ -40,7 +43,6 @@ Unit ranking for competitive PvE content: Nether Quarry mostly, anisync, ember t
 - Lian
 - Lilith
 - Lingluo
-- Lowan
 - Luvia
 - Mia
 - Mio
@@ -48,7 +50,6 @@ Unit ranking for competitive PvE content: Nether Quarry mostly, anisync, ember t
 - Ninfoniel
 - Palin
 - Qano
-- Raymerry
 - Rilmocha
 - Senyu
 - Shadow Sania
@@ -57,7 +58,6 @@ Unit ranking for competitive PvE content: Nether Quarry mostly, anisync, ember t
 - Tsukiyo Mi
 - Veronika
 - Xiada
-- Xuan Chi
 - Yeli
 
 ## Undistributed
